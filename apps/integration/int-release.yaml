@@ -1,8 +1,7 @@
 image:
-  tag: release-32.2.0.cms5
+  tag: release-32.3.0.cms1
 
-# FIXME: Maybe not the best place for this but everything may need it
-
+# Sometimes we need to explicitly note the database schema name
 config:
   database:
     schema: "CMS_RUCIO_INT"
